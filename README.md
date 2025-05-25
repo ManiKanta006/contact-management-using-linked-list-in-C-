@@ -40,3 +40,33 @@ This project is a simple **Contact Management System** implemented in the C prog
    ```bash
    git clone https://github.com/ManiKanta006/contact-management-using-linked-list-in-C-.git
    cd contact-management-using-linked-list-in-C-
+
+2. Compile the code:
+   ```bash
+      gcc contact-management.c -o contact-management
+   ```
+3. Run the program:
+   ```bash
+   ./contact-management
+   ```
+📌 Sample Menu Interface
+1. Add Contact
+2. Display Contacts
+3. Search Contact
+4. Modify Contact
+5. Delete Contact
+6. Exit
+
+📓 Contact Structure
+Each contact contains:
+
+Name
+Phone Number
+Email Address
+
+These are stored in dynamically allocated nodes of a singly linked list for efficient insertion and deletion.
+
+🧑‍💻 Author
+T. ManiKanta
+GitHub: ManiKanta006
+
